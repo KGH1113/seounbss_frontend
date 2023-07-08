@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <title>서운중학교 방송부</title>
       <link
         href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
         rel="stylesheet"
