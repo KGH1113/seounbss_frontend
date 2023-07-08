@@ -21,7 +21,7 @@ const SongRequestPage = () => {
     const singer = document.getElementById("artist").value;
     const name = document.getElementById("user-name").value;
     const studentNumber = document.getElementById("school-number").value;
-    if (songTitle == "" || singer == "" || name == "" || studentNumber == "") {
+    if (songTitle === "" || singer === "" || name === "" || studentNumber === "") {
       return;
     }
     // Create a request object
@@ -86,9 +86,9 @@ const SongRequestPage = () => {
           <input type="text" id="artist" />
         </div>
         <div className="info-buttons">
-          <a className="info-btn selected" onClick={handleSubmit}>
+          <button className="info-btn selected" onClick={handleSubmit}>
             신청하기
-          </a>
+          </button>
           <a className="info-btn nav-btn" href="/view-song-request">
             신청목록 보기
           </a>
