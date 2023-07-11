@@ -3,6 +3,18 @@ const Footer = () => {
     <>
       <br />
       <br />
+      <ins
+        className="kakao_ad_area"
+        style={{ display: "block" }}
+        data-ad-unit="DAN-pMdtI9Bdxf6I09hR"
+        data-ad-width="320"
+        data-ad-height="100"
+      ></ins>
+      <script
+        type="text/javascript"
+        src="//t1.daumcdn.net/kas/static/ba.min.js"
+        async
+      ></script>
       <div className="footer">
         <div className="footer-header">SeounBSS</div>
         <div className="footer-links">

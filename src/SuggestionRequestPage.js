@@ -61,7 +61,7 @@ const SuggestionRequestPage = () => {
 
   return (
     <div className="main">
-      <Navbar selectedParam={4} />
+      <Navbar selectedParam={4} mobileLogo={false} />
       <div className="song-request">
         <p className="header">건의사항 신청하기</p>
         <div className="containerr">

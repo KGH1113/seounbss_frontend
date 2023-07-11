@@ -63,7 +63,7 @@ const Counter = () => {
 
   return (
     <div className="main">
-      <Navbar selectedParam={3} />
+      <Navbar selectedParam={3} mobileLogo={false} />
       <div className="song-request">
         <p className="header">점심시간 노래 신청목록</p>
         <div className="containerrr">

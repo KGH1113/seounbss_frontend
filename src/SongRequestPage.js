@@ -72,7 +72,7 @@ const SongRequestPage = () => {
 
   return (
     <div className="main">
-      <Navbar selectedParam={3} />
+      <Navbar selectedParam={3} mobileLogo={false} />
       <div className="song-request">
         <p className="header">점심시간 노래 신청하기</p>
         <div className="containerr">
