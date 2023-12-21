@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "source": "/:path",
+      "destination": "https://port-0-subs-iciy2almrigmyv.sel5.cloudtype.app/:path"
     }
   ]
 }
